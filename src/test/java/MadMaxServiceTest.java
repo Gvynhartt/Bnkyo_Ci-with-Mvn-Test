@@ -9,7 +9,7 @@ public class MadMaxServiceTest {
         int a = 5;
         int b = 3;
 
-        int expected = a;
+        int expected = 7;
         int actual = benzak.max(a, b);
 
         Assertions.assertEquals(expected, actual);
